@@ -3,7 +3,9 @@
    padding: 0;
    box-sizing: border-box;
 }
-
+body{
+    background-color: #f6f8f9;
+}
 
 /* header con immagine e titolo*/
 header{
@@ -26,3 +28,33 @@ header{
     display: inline-block;
     vertical-align: middle;
 }
+
+/*inizio menu*/
+.section{
+    margin:0 auto;
+    width: 800px;
+    background-color: #ffffff;
+    
+}
+.section,menu{
+    height: 40px;
+    border-radius:5px;
+    margin-top:40px;
+    border:1px solid #47adf1;
+}
+
+.add{
+    line-height: 20px;
+    padding:1px 10px;
+    border-radius: 5px;
+    border:1px solid #000;
+    margin-left:20px;
+    margin-top:10px;
+    display: inline-block;
+    color:#000;
+    font-family:monospace;
+}
+.add:hover{
+    background-color: #47adf1;
+}
+/*Fine menu*/
